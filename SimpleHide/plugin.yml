@@ -1,0 +1,13 @@
+name:  SimpleHide
+main:  main.SimpleHide
+version:  0.01
+api-version:  1.13
+author:  Mituhashi
+commands:
+    hide:
+         description:  hide player.If there is no argument,all players are targeted.
+         usage:  /hide [playername]
+    show:
+         description:  show player.If there is no argument,all players are targeted. 
+         usage:  /show [playername]
+    
