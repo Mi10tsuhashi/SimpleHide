@@ -1,0 +1,32 @@
+name:  SimpleHide
+main:  com.mi10n.SimpleHide.main.SimpleHide
+version:  0.02
+api-version:  1.13
+author:  Mi10tsuhashi
+commands:
+    hide:
+        description: hide all player.
+        usage:  /hide
+    show:
+        description: show all player.
+        usage:  /show
+    status:
+        description: display current hide status.
+        usage: /status
+    hiddenList:
+        description: display a list of players currently using the hide command.
+        usage: /hiddenList
+permissions:
+    sh.hide:
+        description:  allow use hide command.
+        default:  true
+    sh.show:   
+        description:  allow use show comand.
+        default:  true
+    sh.status:   
+        description:  allow use status comand.
+        default:  true
+    sh.hiddenList:   
+        description:  allow use hiddenList comand.
+        default:  true
+softdepend: [PlaceholderAPI]
